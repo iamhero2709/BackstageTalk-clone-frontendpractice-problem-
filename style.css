@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+  /*  transition: background 0.5s;*/
+}
+#main{
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#main h1{
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+.top-left{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    
+}
+.bottom-left{
+width: 30vw;
+position: fixed;
+bottom: 7%;
+left: 3%;
+}
+.bottom-left-2{
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+}
+.bottom-left-3{
+    position: fixed;
+  
+bottom: 1%;
+left: 4%;
+}
+.bottom-right{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+#sec-1{
+    position: relative;
+    height: 700px;
+  
+}
+.middle{
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+#sec-1 img{
+    width: 420px;
+}
+.a1{
+    display: block;
+    margin: 20px 0px;
+    color: #fff;
+}
+.a2{
+    color: #fff;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.a2:hover{
+    text-decoration: underline;}
+
+    #sec-2{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-2 img{
+        width: 420px;
+    }
+    #sec-3{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-3 img{
+        width: 420px;
+    }   
+    #sec-4{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-4 img{
+        width: 420px;
+    }
+    #sec-5{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-5 img{
+        width: 420px;
+    }
+    #sec-6{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-6 img{
+        width: 420px;
+    }
+    #sec-7{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-7 img{
+        width: 420px;
+    }
+    #sec-8{
+        position: relative;
+        height: 700px;
+      
+    }
+    #sec-8 img{
+        width: 420px;
+    }
+
+    @media only screen and (max-width: 800px){
+        .main h2{
+            position: absolute;
+            top: 10px;
+        }
+        .bottom-right{
+            display: none;
+        }
+        .top-right{
+           display: none;
+        }
+        .bottom-left{
+            display: none;
+    
+        }
+        .bottom-left-2{
+            display: none;
+    
+        }
+        .bottom-left-3{
+            display: none;
+    
+        }
+        footer{
+            margin: 30px auto;
+            width: 60vw;
+            display: block;
+            text-align: center;
+        }
+        .f1{
+            margin: 20px 0px;
+        }
+        .f1:hover{
+            text-decoration: underline;
+        }
+        .au{
+            color: black;
+            text-decoration: underline;
+        }
+        .au:hover{
+            text-decoration: none;
+        }
+        .f3, .f4{
+            margin: 20px 0px;
+        }
+    }    
